@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>door2windows</title>
+    <description>Windows Tip, Tricks, Tweaks, Downloads and Customization</description>
+    <link>http://www.door2windows.com</link>
+    <lastBuildDate>Tue, 10 Mar 2015 00:00:00 +0530</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2015 00:00:00 +0530</pubDate>
+    <atom:link href="http://www.door2windows.com/feed/" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/>
+    <atom:link rel="hub" href="http://pubsubhubbub.superfeedr.com"/>
+    
+    
+      <item>
+        <title>SmartCapsLock</title>
+        <link>http://www.door2windows.com/smartcapslock/</link>
+        <guid isPermaLink="true">http://www.door2windows.com/smartcapslock/</guid>
+        <pubDate>Tue, 10 Mar 2015 00:00:00 +0530</pubDate>
+        <category>door2windows Apps</category><category>Downloads</category><category>Windows Vista</category><category>Windows 7</category><category>Windows 8</category><category>Windows 10</category>
+        <description><![CDATA[<img src="/files/smartcapslock/SmartCapsLock.png" alt="SmartCapsLock" /><br/>DON'T YOU GET ANNOYED WHEN YOU ACCIDENTALLY TYPE EVERYTHING WITH CAPS LOCK ON? Wouldn't it be awesome if you could just select the text and press Caps Lock again to reverse the mistake instead of typing it all over again? SmartCapsLock lets you do just this. Or do you wonder why that key sits in your keyboard even though it serves no purpose for...]]></description>
+      </item>
+    
+    
+      <item>
+        <title>How To Install Windows 10</title>
+        <link>http://www.door2windows.com/how-to-install-windows-10/</link>
+        <guid isPermaLink="true">http://www.door2windows.com/how-to-install-windows-10/</guid>
+        <pubDate>Fri, 30 Jan 2015 00:00:00 +0530</pubDate>
+        <category>Windows 10</category>
+        <description><![CDATA[<img src="/files/install-windows/10/9926/42.png" alt="How To Install Windows 10" /><br/>Backup all files before installing Windows. Insert your Windows 10 DVD/USB and boot from it. Select your language, time &amp; currency format, keyboard or input method and click Next. Click Install now. Check I accept the license terms and click Next. If you already have an existing Windows installation and want to keep existing files, settings and apps, click Upgrade. If you want to...]]></description>
+      </item>
+    
+    
+      <item>
+        <title>Download Windows 10 January Build</title>
+        <link>http://www.door2windows.com/download-windows-10-january-build/</link>
+        <guid isPermaLink="true">http://www.door2windows.com/download-windows-10-january-build/</guid>
+        <pubDate>Fri, 23 Jan 2015 00:00:00 +0530</pubDate>
+        <category>Downloads</category><category>Windows 10</category>
+        <description><![CDATA[Microsoft has released a new build (9926) of its latest operating system Windows 10 for users to download. This build contains many new exciting features like Cortana, new start menu, continuum, new settings, photos and maps apps etc. If you are using an earlier build of Windows 10, you can upgrade from PC settings or it'll automatically get installed from Windows Update soon. If...]]></description>
+      </item>
+    
+    
+      <item>
+        <title>CustomizerGod</title>
+        <link>http://www.door2windows.com/customizergod/</link>
+        <guid isPermaLink="true">http://www.door2windows.com/customizergod/</guid>
+        <pubDate>Fri, 02 Jan 2015 00:00:00 +0530</pubDate>
+        <category>door2windows Apps</category><category>Downloads</category><category>Windows 7</category><category>Windows 8</category><category>Windows 10</category>
+        <description><![CDATA[<img src="/files/customizergod/10240.png?quality=100" alt="CustomizerGod" /><br/>CustomizerGod is the ultimate tool for customizing Windows. It lets you customize almost any part of Windows according to your taste. If you are inexperienced with customization and have a fear of messing up Windows, fear not as CustomizerGod is the safest and easiest customization tool you'll ever use. CustomizerGod is the perfect Resource Hacker alternative for editing image resources. Click here to check...]]></description>
+      </item>
+    
+    
+      <item>
+        <title>Windows 7+ Branding Changer</title>
+        <link>http://www.door2windows.com/windows-7-branding-changer/</link>
+        <guid isPermaLink="true">http://www.door2windows.com/windows-7-branding-changer/</guid>
+        <pubDate>Fri, 21 Nov 2014 00:00:00 +0530</pubDate>
+        <category>door2windows Apps</category><category>Downloads</category><category>Windows 7</category><category>Windows 8</category>
+        <description><![CDATA[<img src="/files/w7bc/main.png" alt="Windows 7+ Branding Changer" /><br/>WARNING Use CustomizerGod. Windows 7+ Branding Changer is obsolete, will no longer be updated and can cause problems. CustomizerGod is way more stable, fast and safe. Windows 7+ Branding Changer is a freeware from door2windows that lets you easily change the Windows branding logo in Computer Properties. It's compatible with Windows 7, Windows 8 and Windows 8.1. Download Windows 7+ Branding Changer Apps from...]]></description>
+      </item>
+    
+  </channel>
+</rss>

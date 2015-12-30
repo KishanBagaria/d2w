@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/kishanbagaria
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.door2windows.com
+  * I am kishanbagaria (https://keybase.io/kishanbagaria) on keybase.
+  * I have a public key with fingerprint 64D4 5F07 9B63 DF26 05E2  2147 3967 F5FF 6A09 5352
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "64d45f079b63df2605e221473967f5ff6a095352",
+            "host": "keybase.io",
+            "key_id": "3967f5ff6a095352",
+            "uid": "228c2e0405e6e2a0d5f61720f1e7cb00",
+            "username": "kishanbagaria"
+        },
+        "service": {
+            "hostname": "www.door2windows.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1400869715,
+    "expire_in": 157680000,
+    "prev": "6736050a2b8ce00b62a7dbb709b368531b9f024f969e767a7399193d51d1df0e",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.15
+Comment: https://keybase.io/crypto
+
+yMH+AnicbZFtSFRZGMfHTB1HdhXbPrRU2CXtxcHOfX2ZcNvcXXEmiFVDXVsa7p17
+7nhS7529947ja9KqoK64hrgFKixWK7ZRIGhCrrli+MHwQ5qQwRqF+4K4sNsXpcE8
+d7BvnS+H8zz//+85/J/Zj+IdrriR8PbE1TuLb+Pmp7fDjuLm3uIGQtaVOsLTQFTC
+2KUiLQiNkIE0i/AQHKMwrAp4UeZoRaU4wEKKIhmeFjleZVWVk4DI0ixFuIkK3bQd
+GCNLJsxBOq7hhx8puPoBfTjWoCghQEHAYDAHKQkorMqRPAVUEvIBGQBbaEJDk6qh
+DUdmhaTJUlAykEQ0uQncqkEB3GqIzd+VRSKRHEXXDSqCNEWPmDkBvRqDQoZu6QG9
+CisqLCvksQFWXSjmgLJ/l+WXsQmHgA010DCRrhEeEisDFrLhJAOAwIk8yboJWBtC
+BvQjW8HynADwscfAGjs6nsZxAYmShQAEQOYoiVdkmQeiTHMCS5OyqAKKUUVOhDzH
+SzhTkRRphSUVUlEBxPNN+J2mEx4af1MKYqSJgppkhQ1INM1Mf7vXEedyJCbssdfo
+cCWnvV9uyemk7WN/Jj+df5efoqLJdj3hzOK4PjLdmP9P4ep61Nfzo8/9SduJyMp8
+4knveXmzkM07fGjf6mS0ef9gevmzb3Ifrfc0+dLHRtNKlmtflH+frf8uvPkaolvC
+r2qSF81VPjiYF/93wZWjjv5PiYtbZO4wabWkZMx1TG39wRzJ+HyiK1j3ihmq6oyO
+Nd5//Xyh93pW380nHb/1ZR5fPjDQXVRWeiG13tVydunuDDvw8uPu9p9PFddnhoVz
+7k1n2YbPlfVZ7l/rcGFtkBwO1ne0tRZd2/hh0ftfOLV/qrWrNNr6/+2ln4wEZ8Ho
+V96pUOcv41+uXM7+12muOS9VfzH7cCjl3o3HPTswKhaw
+=TVbc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kishanbagaria
+
+==================================================================

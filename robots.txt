@@ -1,0 +1,4 @@
+Sitemap: http://www.door2windows.com/sitemap.xml
+
+User-agent: *
+Disallow: /go/*
