@@ -53,7 +53,7 @@ nav a:active,nav a:focus {background: #FFF; color: #08131A; border-color: #fff!i
 #page-title{padding: 16px 0;line-height: 200%}
 #page-title a {text-decoration: none}
 aside, section{display: table-cell; vertical-align: top; padding: 16px; box-sizing: border-box}
-aside {background:#E3F2FD; min-width: 300px;border-left: 1px solid #BBDEFB;padding-top:0}
+aside {background:#E3F2FD; min-width: 333px;border-left: 1px solid #BBDEFB;padding-top:0}
 section {background:#fff; width: 100%;border-top: 1px solid #BBDEFB}
 
 main a, #header-ad a {color:#2196F3}
