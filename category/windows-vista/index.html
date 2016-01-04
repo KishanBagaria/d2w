@@ -8,21 +8,15 @@
 <meta name="google-translate-customization" content="4d30dddd24cd9538-b48fd583688bb4e9-gf1eb9f488c24dd85-15">
 <link rel="canonical" href="http://www.door2windows.com/category/windows-vista/">
 <style>.content_ad,.header_ad,.sidebar_ad{width:234px;height:60px}</style>
-<link rel="stylesheet" href="/s.css?f" media="screen">
+<link rel="stylesheet" href="/s.css?g" media="screen">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-ico">
 <link rel="alternate" type="application/rss+xml" title="door2windows RSS Feed" href="http://feeds.door2windows.com/door2windows">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta property="og:site_name" content="door2windows">
 
-<script>
-function forEach(array, callback, scope){ for (var i = 0; i < array.length; i++) callback.call(scope, i, array[i]) }
-</script>
+<script>function forEach(array, callback, scope){ for (var i = 0; i < array.length; i++) callback.call(scope, i, array[i]) }</script>
 </head>
 <body ontouchstart="">
-<div id="fixed">
-<div id="fixed-msg"></div>
-<div id="fixed-padding"></div>
-</div>
 <header class="container">
 <nav id="left-nav">
     <li><a href="/category/customization/">Customization</a>
@@ -113,14 +107,6 @@ function forEach(array, callback, scope){ for (var i = 0; i < array.length; i++)
         <br>
     </div>
 </footer>
-<div class="hidden" id="adblock-message" hidden>
-<span id="close" style="display:none" onclick="document.getElementById('fixed').remove();_gaq.push(['_trackEvent','Ad Block Message','Closed',undefined,undefined,true])">✖</span>
-<h2>Hey there!</h2>
-<h3 style="margin:0">I notice you're blocking the ads on this page, that's fine but I'd like you to support this site in some way so that it stays alive:</h3>
-<p>disable your ad blocking for this site or<br>
-get the <a href="https://gumroad.com/l/d2w-apps">door2windows App Bundle for $5</a> or<br>
-get your friends to know about door2windows by tweeting and sharing on facebook.</p>
-</div>
 <script>
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-15889022-1'}, 'gte');
@@ -135,14 +121,6 @@ function loaded() {
   });
   var ad = document.querySelector('ins.adsbygoogle'),
       blocked = ad && ad.innerHTML.replace(/\s/g, '').length == 0;
-  if (blocked) {
-    var fm = document.getElementById('fixed-msg');
-    fm.innerHTML = document.getElementById('adblock-message').innerHTML;
-    document.getElementById('fixed-padding').setAttribute('style', 'padding-top:' + fm.offsetHeight + 'px');
-    setTimeout(function() {
-      document.getElementById('close').style.display = '';
-    }, 2e3);
-  }
   _gaq.push(['_trackEvent', 'Ad Blocked', (blocked?'':'Not') + 'Blocked', undefined, undefined, true]);
 }
 if (window.addEventListener) window.addEventListener('load', loaded, false);

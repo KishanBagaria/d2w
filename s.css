@@ -58,10 +58,10 @@ aside, section{display: table-cell; vertical-align: top; padding: 16px; box-sizi
 aside {background:#E3F2FD; min-width: 333px;border-left: 1px solid #BBDEFB;padding-top:0}
 section {background:#fff; width: 100%;border-top: 1px solid #BBDEFB}
 
-main a, #header-ad a {color:#2196F3}
-main a:visited,#header-ad a:visited {color:#42A5F5}
-main a:hover,#header-ad a:hover {text-decoration: none; color:#64B5F6}
-main a:active,#header-ad a:active, main a:focus,#header-ad a:focus {text-decoration: none; color:#1976D2}
+main a {color:#2196F3}
+main a:visited {color:#42A5F5}
+main a:hover {text-decoration: none; color:#64B5F6}
+main a:active, main a:focus {text-decoration: none; color:#1976D2}
 main li a,main h2 a,main h2 a:hover,main h3 a,main h3 a:hover {text-decoration: none}
 main li a:hover {text-decoration: underline}
 main ul {list-style:none;padding:0}
@@ -82,9 +82,6 @@ footer {color:rgba(227,242,253,.5)}
 .footer-row {padding: 12px 0; clear:both}
 .footer-row a {margin: 0 -1px}
 .footer-row a:last-child {margin-right: 0}
-
-#fixed-msg {background: #E3F2FD; position: fixed; width: 100%; text-align: center}
-#close {cursor: pointer; position: fixed; right: 8px}
 
 /*ELEMENTS THAT APPEAR ON EVERY PAGE*/
 
