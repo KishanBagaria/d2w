@@ -106,6 +106,7 @@ footer {color:rgba(227,242,253,.5)}
 .yellow h3 {padding: 0; margin: 0; border:0; background: none}
 .feature {border-radius: 8px; border: 1px solid #2196F3; padding: 16px; overflow: hidden}
 .feature h3 {padding: 8px 16px; margin: -16px -16px 16px; border:0; background:#2196F3; border-radius:0; color:#fff}
+.dashed {padding: 8px 16px; border: 2px dashed #BBDEFB; border-radius: 8px}
 
 .badge {padding: 3px 5px 2px; border-radius: 4px; font-size: 12px; margin-left: 5px}
 .green {background: #4CAF50; color:#fff}
