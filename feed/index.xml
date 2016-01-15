@@ -4,8 +4,8 @@
     <title>door2windows</title>
     <description>Windows Tip, Tricks, Tweaks, Downloads and Customization</description>
     <link>http://www.door2windows.com</link>
-    <lastBuildDate>Tue, 12 Jan 2016 00:00:00 +0530</lastBuildDate>
-    <pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 00:00:00 +0530</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 00:00:00 +0530</pubDate>
     <atom:link href="http://www.door2windows.com/feed/" rel="self" type="application/rss+xml" />
     <language>en-US</language>
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/>
@@ -16,7 +16,7 @@
         <title>How To Install Windows 10 v1511 (Build 10586)</title>
         <link>http://www.door2windows.com/how-to-install-windows-10-v1511/</link>
         <guid isPermaLink="true">http://www.door2windows.com/how-to-install-windows-10-v1511/</guid>
-        <pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 15 Jan 2016 00:00:00 +0530</pubDate>
         <category>Windows 10</category>
         <description><![CDATA[<img src="/files/install-windows/10/1511/36.png" alt="How To Install Windows 10 v1511 (Build 10586)" /><br/>This tutorial was made using VirtualBox and this ISO file downloaded from MSDN: en_windows_10_multiple_editions_version_1511_x64_dvd_7223712.iso General disclaimer: backup all files before installing Windows. Insert your Windows 10 DVD/USB and boot from it. (To boot from anything, you have to press a certain key as soon as your computer starts to access the boot menu. This key is usually displayed on the screen when the computer...]]></description>
       </item>
