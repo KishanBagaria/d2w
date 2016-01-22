@@ -57,7 +57,7 @@
 <!-- google_ad_section_start -->
 
 
-<video id="preview" src="http://kishanbagaria.com/--/smartcapslock/preview.mov" autoplay=""></video>
+<video id="preview" src="//i0.wp.com/www.door2windows.com/files/smartcapslock/preview.mov" autoplay=""></video>
 <script>document.getElementById('preview').playbackRate=1.5</script>
 
 <p>DON'T YOU GET ANNOYED WHEN YOU ACCIDENTALLY TYPE EVERYTHING WITH CAPS LOCK ON? Wouldn't it be awesome if you could just select the text and press <kbd>Caps Lock</kbd> again to reverse the mistake instead of typing it all over again? SmartCapsLock lets you do just this.</p>
@@ -248,17 +248,17 @@ else window.attachEvent('onload', loadDisqus);
     </div>
 </footer>
 <script>
+forEach(document.getElementsByTagName('time'), function(i,e) {
+  var d = Math.floor((Date.now()-new Date(e.innerHTML))/864e5);
+  if (d < 100) {
+    e.title = e.innerHTML;
+    e.innerHTML = d <= 0 && 'today' || d == 1 && 'yesterday' || d + ' days ago';
+  }
+});
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-15889022-1'}, 'gte');
 }
 function loaded() {
-  forEach(document.getElementsByTagName('time'), function(i,e) {
-    var d = Math.floor((Date.now()-new Date(e.innerHTML))/864e5);
-    if (d < 100) {
-      e.title = e.innerHTML;
-      e.innerHTML = d <= 0 && 'today' || d == 1 && 'yesterday' || d + ' days ago';
-    }
-  });
   var ad = document.querySelector('ins.adsbygoogle'),
       blocked = ad && ad.innerHTML.replace(/\s/g, '').length == 0;
   _gaq.push(['_trackEvent', 'Ad Blocked', (blocked?'':'Not') + 'Blocked', undefined, undefined, true]);
