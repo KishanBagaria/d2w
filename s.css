@@ -104,24 +104,23 @@ footer {color:rgba(227,242,253,.5)}
 /*ELEMENTS THAT APPEAR ON SOME PAGES*/
 .yellow {background:#FFEB3B; border:1px solid #FDD835; padding: 16px; margin: 16px 0; border-radius: 8px}
 .yellow h3 {padding: 0; margin: 0; border:0; background: none}
-.feature {border-radius: 8px; border: 1px solid #2196F3; padding: 16px; overflow: hidden}
-.feature h3 {padding: 8px 16px; margin: -16px -16px 16px; border:0; background:#2196F3; border-radius:0; color:#fff}
+.feature {border-radius: 8px; border: 1px solid #4CAF50; padding: 16px; overflow: hidden}
+.feature h3 {padding: 8px 16px; margin: -16px -16px 16px; border:0; background:#4CAF50; border-radius:0; color:#fff}
 .dashed {padding: 4px 16px; border: 1px dashed #2196F3; border-radius: 8px}
+
+input[type=submit], .button {text-decoration: none; line-height:1.9;padding: 0 1em 0;border-radius: 8px;display: inline-block}
+.button {font-size: 16px; line-height:2.2}
+input[type=submit],.button,.button:visited {background:#2196F3; border: 1px solid #2196F3; color:#fff}
+input[type=submit]:active, input[type=submit]:focus, input[type=submit]:hover, 
+.button:active, .button:focus, .button:hover {background:transparent; color:#2196F3; border-color: inherit}
+input[type=submit]:active, .button:active {transform:scale(.96)}
+
+.button.green{border-color:#4CAF50}
+.button.green:active,.button.green:focus,.button.green:hover{color:#4CAF50}
 
 .badge {padding: 3px 5px 2px; border-radius: 4px; font-size: 12px; margin-left: 5px}
 .green {background: #4CAF50; color:#fff}
 .orange {background: #FF9800; color:#fff}
-
-input[type=submit], .button, .button-a {text-decoration: none; line-height:1.9;padding: 0 1em 0;border-radius: 8px;display: inline-block}
-.button, .button-a {font-size: 16px; line-height:2.2}
-input[type=submit],.button,.button:visited {background:#2196F3; border: 1px solid #2196F3; color:#fff}
-input[type=submit]:active, input[type=submit]:focus, input[type=submit]:hover, 
-.button:active, .button:focus, .button:hover {background:#fff; color:#2196F3; border-color: inherit}
-
-.button-a,.button-a:visited {border: 1px solid; color:#2196F3}
-.button-a:active, .button-a:focus, .button-a:hover {background:#2196F3; color:#fff; border-color:#2196F3}
-
-input[type=submit]:active, .button:active, .button-a:active {transform:scale(.96)}
 
 textarea,input {outline: none}
 input[type=text], input[type=email], textarea {background:#fff; border-radius: 4px; border:solid 1px #2196F3;line-height: 1.9;padding: 0 .5em}
