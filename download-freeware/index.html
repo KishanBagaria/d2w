@@ -8,7 +8,7 @@
 <meta name="google-translate-customization" content="4d30dddd24cd9538-b48fd583688bb4e9-gf1eb9f488c24dd85-15">
 <link rel="canonical" href="http://www.door2windows.com/download-freeware/">
 <style>.content_ad,.header_ad,.sidebar_ad{width:234px;height:60px}</style>
-<link rel="stylesheet" href="/s.css?j" media="screen">
+<link rel="stylesheet" href="/s.css?m" media="screen">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-ico">
 <link rel="alternate" type="application/rss+xml" title="door2windows RSS Feed" href="http://feeds.door2windows.com/door2windows">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -53,6 +53,8 @@
 <div id="content"><noscript><h3 class="yellow">Please enable JavaScript to download.</h3></noscript>
 
 <p id="obsolete" style="display:none">You are downloading an obsolete app. It is highly recommended that you <a href="/customizergod/">download CustomizerGod</a> instead.</p>
+<p id="outdated" style="display:none">You are downloading a very outdated app which can possibly break your computer. Your download will be changed to <a href="/customizergod/">CustomizerGod</a> instead which has all the features of <span id="outdated-app"></span>...</p>
+<p id="ext_ref" style="display:none">You were directly linked to this download page from an external site. You will be redirected to the main product page in a few seconds so that you can learn more about the app and start the download yourself.</p>
 
 <p class="dashed">Apps from door2windows are truly free and DON'T include any offers to install 3rd-party apps/adware/toolbars/unwanted software and never will. The apps are portable and don't require installation.</p>
 
@@ -68,7 +70,7 @@ door2windows App Bundle gives you access to all the latest apps released from do
 <li>You'll get premium support which actually is quite amazing despite the boring name. I'll personally make sure the app works for you and update the app if required.</li>
 <li>You want to support the development of existing and new apps from door2windows.</li>
 </ul>
-<p class="center" style="margin-bottom:0"><a class="button green" href="https://gumroad.com/l/d2w-apps" target="_blank">Download door2windows App Bundle for $5</a></p>
+<p class="center" style="margin-bottom:0"><a class="button green" href="https://gumroad.com/l/d2w-apps" target="_blank">Download door2windows App Bundle for <s>$25</s> $5</a><br>(80% off for limited time!)</p>
 </div></p>
 
 <h3>Check out other apps from door2windows</h3>
@@ -90,23 +92,29 @@ door2windows App Bundle gives you access to all the latest apps released from do
 <script>
 var _gaq=_gaq||[],
     app = decodeURIComponent(location.hash.substr(1).replace(/\+/g, '%20')),
-    direct_link = '//d.kishan.info/?file=' + location.hash.substr(1);
-
-if(location.search.indexOf('?obsolete') !== -1) document.getElementById('obsolete').style.display = '';
-
+    direct_link = '//d.kishan.info/?file=' + location.hash.substr(1),
+    ext_ref = document.referrer.indexOf('://www.door2windows.com/') === -1;
+function showEl(id) { document.getElementById(id).style.display = '' }
+if(location.search.indexOf('?obsolete') !== -1) showEl('obsolete');
+if(!ext_ref && location.search.indexOf('?outdated') !== -1) {
+    document.getElementById('outdated-app').innerHTML = app;
+    showEl('outdated');
+    app = '<s>' + app + '</s> CustomizerGod';
+    direct_link = '//d.kishan.info/?file=CustomizerGod';
+}
 document.getElementById('page-title').innerHTML = 'Downloading ' + app + '...';
-
-setTimeout(function() {
-  document.getElementById('retry_msg').style.display = '';
-}, 5e3);
-
-function download() {
-    window.location = direct_link;
-};
-_gaq.push(['_trackEvent', 'Clean Download', 'Download', app]);
-
-if (window.addEventListener) window.addEventListener('load', download, false);
-else if (window.attachEvent) window.attachEvent('onload', download);
+function download() { window.location = direct_link }
+if(ext_ref) {
+    showEl('ext_ref');
+    var page_link = '/' + app.toLowerCase().replace(/ /g, '-') + '/';
+    _gaq.push(['_trackEvent', 'Clean Download', 'Download Redirect', app]);
+    setTimeout(function() { window.location = page_link }, 5e3);
+} else {
+    setTimeout(function() { showEl('retry_msg') }, 5e3);
+    _gaq.push(['_trackEvent', 'Clean Download', 'Download', app]);
+    if (window.addEventListener) window.addEventListener('load', download, false);
+    else if (window.attachEvent) window.attachEvent('onload', download);
+}
 </script></div>
 <!-- google_ad_section_end -->
 </section>
@@ -133,7 +141,7 @@ else if (window.attachEvent) window.attachEvent('onload', download);
 <li>You'll get premium support which actually is quite amazing despite the boring name. I'll personally make sure the app works for you and update the app if required.</li>
 <li>You want to support the development of existing and new apps from door2windows.</li>
 </ul>
-<p class="center"><a class="button green" href="https://gumroad.com/l/d2w-apps" target="_blank">Download for $5</a></p>
+<p class="center"><a class="button green" href="https://gumroad.com/l/d2w-apps" target="_blank">Download for <s>$25</s> $5</a><br>(80% off for limited time!)</p>
 </aside>
 </main>
 </div></div>

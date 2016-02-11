@@ -2,9 +2,10 @@
 
 /* GLOBAL */
 *{transition:.3s}
+s{transition:none}
 br,hr{clear:both}
 br,hr,pre,p,ol,ul {margin: 12px 0}
-li ul {margin-top:12px}
+li ul {margin:0}
 h2,h3,h4,h5,h6{color: #004D40}
 img {max-width: 100%}
 kbd {border: 1px solid; border-radius: 4px; padding: 3px 5px; font: inherit; font-size: 11px; text-transform: uppercase; box-shadow: #bbb 0 1px 1px}
