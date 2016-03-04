@@ -47,11 +47,12 @@ nav a:active,nav a:focus {background: #FFF; color: #08131A; border-color: #fff!i
 .container {max-width:1000px; margin:auto; padding-left: 1%; padding-right: 1%; width:98%}
 
 #page-content {box-shadow: 0 0 24px 8px rgba(0,0,0,.5); border-radius: 8px; overflow:hidden}
-#page-header {background: radial-gradient(50% 100%, #004768, #002842); text-align: center;padding: 0 16px}
+#page-header {background: radial-gradient(50% 100%, #004768, #002842); text-align: center;padding: 0 16px;position:relative}
 #page-header.header-small {background: #03A9F4}
 .header-small #page-title{color:#fff}
 #page-header, #page-title a, #page-header h2{color:#BBDEFB}
 #page-header img {margin: 24px 0}
+#page-header span {text-transform: uppercase; position: absolute; top: 0; right: 0; font-size: 12px; letter-spacing: 1px; opacity: .6; background: rgba(255,255,255,.2); padding: 0 10px}
 #page-title,#page-header h2 {margin: 0;font-weight: normal}
 #page-title{padding: 16px 0;line-height: 200%}
 #page-title a {text-decoration: none}
