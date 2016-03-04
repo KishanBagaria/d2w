@@ -89,7 +89,7 @@ footer {color:rgba(227,242,253,.5)}
 #header-ad {padding: 12px 0; background:#E3F2FD; text-align: center}
 #sidebar-social {background: #90CAF9;padding: 16px; margin: 0 -16px; text-align: center}
 #sidebar-social iframe {height: 20px; display: inline-block}
-#sidebar-social a {color: #fff; border-radius: 3px; display: inline-block; line-height: 20px; padding: 0 8px; text-decoration: none; font-size: 13px}
+#sidebar-social a {color: #fff; border-radius: 3px; display: inline-block; line-height: 20px; padding: 0 8px; text-decoration: none; font-size: 13px; vertical-align: top}
 #sidebar-social a:hover {box-shadow: inset 0 0 100px rgba(0,0,0,.1)}
 #sidebar-social a:active {box-shadow: inset 0 4px 100px rgba(0,0,0,.2)}
 #rss{background: #FF5722; margin-right: 6px}
