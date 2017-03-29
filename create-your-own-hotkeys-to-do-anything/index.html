@@ -95,11 +95,6 @@
 
 
 </div>
-<div class="hidden" id="support-site">
-I use ad blockers too, they're nice little tools, aren't they? Unfortunately, sites like this one exist solely because of ads. If you'd like to read this article or download apps from door2windows, please disable your ad blocker for this site (door2windows.com) and refresh the page.<br/>
-<a href="http://www.wikihow.com/Disable-Adblock">Learn how to do this &rarr;</a><br/>
-<a href="javascript:window.location.reload()">Refresh the page</a>
-</div>
 <div id="page-share">
 <h3>Like this? Share it then!</h3>
 
@@ -183,6 +178,11 @@ else window.attachEvent('onload', loadDisqus);
     <br>
   </div>
 </footer>
+<div class="hidden" id="support-site">
+I use ad blockers too, they're nice little tools, aren't they? Unfortunately, sites like this one exist solely because of ads. If you'd like to read this article or download apps from door2windows, please disable your ad blocker for this site (door2windows.com) and refresh the page.<br/>
+<a href="http://www.wikihow.com/Disable-Adblock">Learn how to do this &rarr;</a><br/>
+<a href="javascript:window.location.reload()">Refresh the page</a>
+</div>
 <script>
 forEach(document.getElementsByTagName('time'), function(i,e) {
   var d = Math.floor((Date.now()-new Date(e.innerHTML))/864e5);
@@ -198,9 +198,8 @@ function loaded() {
   var ad = document.querySelector('ins.adsbygoogle'),
     blocked = ad && ad.innerHTML.replace(/\s/g, '').length === 0;
   if (blocked) {
-    document.getElementById('content').className = 'hidden';
+    document.getElementById('content').innerHTML = document.getElementById('support-site').innerHTML;
     document.getElementById('disqus_thread').className = 'hidden';
-    document.getElementById('support-site').className = '';
   }
   _gaq.push(['_trackEvent', 'Ad Blocked', (blocked?'':'Not') + 'Blocked', undefined, undefined, true]);
 }
