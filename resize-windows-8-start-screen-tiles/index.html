@@ -92,6 +92,11 @@
 
 
 </div>
+<div class="hidden" id="support-site">
+I use ad blockers too, they're nice little tools, aren't they? Unfortunately, sites like this one exist solely because of ads. If you'd like to read this article or download apps from door2windows, please disable your ad blocker for this site (door2windows.com) and refresh the page.<br/>
+<a href="http://www.wikihow.com/Disable-Adblock">Learn how to do this &rarr;</a><br/>
+<a href="javascript:window.location.reload()">Refresh the page</a>
+</div>
 <div id="page-share">
 <h3>Like this? Share it then!</h3>
 
@@ -161,19 +166,19 @@ else window.attachEvent('onload', loadDisqus);
 </main>
 </div></div>
 <footer class="container">
-    <div class="footer-row" id="footer-links">
-        <div class="left">
-            <a href="/apps/">Apps from door2windows</a> &middot;
-            <a href="/privacy/">Privacy</a> &middot;
-            <a href="https://www.door2windows.com/advertise/">Advertise</a> &middot;
-            <a href="/sitemap/">Site Map</a>
-        </div>
-        <div class="right">&copy; 2010-2017 <a href="/">Kishan Bagaria</a></div>
+  <div class="footer-row" id="footer-links">
+    <div class="left">
+      <a href="/apps/">Apps from door2windows</a> &middot;
+      <a href="/privacy/">Privacy</a> &middot;
+      <a href="https://www.door2windows.com/advertise/">Advertise</a> &middot;
+      <a href="/sitemap/">Site Map</a>
     </div>
-    <div class="footer-row">
-        <div class="right"><div id="gte"></div></div>
-        <br>
-    </div>
+    <div class="right">&copy; 2010-2017 <a href="/">Kishan Bagaria</a></div>
+  </div>
+  <div class="footer-row">
+    <div class="right"><div id="gte"></div></div>
+    <br>
+  </div>
 </footer>
 <script>
 forEach(document.getElementsByTagName('time'), function(i,e) {
@@ -188,7 +193,12 @@ function googleTranslateElementInit() {
 }
 function loaded() {
   var ad = document.querySelector('ins.adsbygoogle'),
-      blocked = ad && ad.innerHTML.replace(/\s/g, '').length === 0;
+    blocked = ad && ad.innerHTML.replace(/\s/g, '').length === 0;
+  if (blocked) {
+    document.getElementById('content').className = 'hidden';
+    document.getElementById('disqus_thread').className = 'hidden';
+    document.getElementById('support-site').className = '';
+  }
   _gaq.push(['_trackEvent', 'Ad Blocked', (blocked?'':'Not') + 'Blocked', undefined, undefined, true]);
 }
 if (window.addEventListener) window.addEventListener('load', loaded, false);
