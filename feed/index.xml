@@ -4,8 +4,8 @@
     <title>door2windows</title>
     <description>Windows Tip, Tricks, Tweaks, Downloads and Customization</description>
     <link>http://www.door2windows.com</link>
-    <lastBuildDate>Fri, 15 Jan 2016 00:00:00 +0530</lastBuildDate>
-    <pubDate>Fri, 15 Jan 2016 00:00:00 +0530</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 00:00:00 -0800</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 00:00:00 -0800</pubDate>
     <atom:link href="http://www.door2windows.com/feed/" rel="self" type="application/rss+xml" />
     <language>en-US</language>
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com"/>
@@ -16,7 +16,7 @@
         <title>How To Install Windows 10 v1511 (Build 10586)</title>
         <link>http://www.door2windows.com/how-to-install-windows-10-v1511/</link>
         <guid isPermaLink="true">http://www.door2windows.com/how-to-install-windows-10-v1511/</guid>
-        <pubDate>Fri, 15 Jan 2016 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 15 Jan 2016 00:00:00 -0800</pubDate>
         <category>Windows 10</category>
         <description><![CDATA[<img src="/files/install-windows/10/1511/36.png" alt="How To Install Windows 10 v1511 (Build 10586)" /><br/>This tutorial was made using VirtualBox and this ISO file downloaded from MSDN: en_windows_10_multiple_editions_version_1511_x64_dvd_7223712.iso General disclaimer: backup all files before installing Windows. Insert your Windows 10 DVD/USB and boot from it. (To boot from anything, you have to press a certain key as soon as your computer starts to access the boot menu. This key is usually displayed on the screen when the computer...]]></description>
       </item>
@@ -26,7 +26,7 @@
         <title>SmartCapsLock</title>
         <link>http://www.door2windows.com/smartcapslock/</link>
         <guid isPermaLink="true">http://www.door2windows.com/smartcapslock/</guid>
-        <pubDate>Tue, 10 Mar 2015 00:00:00 +0530</pubDate>
+        <pubDate>Tue, 10 Mar 2015 00:00:00 -0700</pubDate>
         <category>door2windows Apps</category><category>Downloads</category><category>Windows Vista</category><category>Windows 7</category><category>Windows 8</category><category>Windows 10</category>
         <description><![CDATA[<img src="/files/smartcapslock/SmartCapsLock.png" alt="SmartCapsLock" /><br/>DON'T YOU GET ANNOYED WHEN YOU ACCIDENTALLY TYPE EVERYTHING WITH CAPS LOCK ON? Wouldn't it be awesome if you could just select the text and press Caps Lock again to reverse the mistake instead of typing it all over again? SmartCapsLock lets you do just this. Or do you wonder why that key sits in your keyboard even though it serves no purpose for...]]></description>
       </item>
@@ -36,7 +36,7 @@
         <title>How To Install Windows 10 (Build 9926)</title>
         <link>http://www.door2windows.com/how-to-install-windows-10/</link>
         <guid isPermaLink="true">http://www.door2windows.com/how-to-install-windows-10/</guid>
-        <pubDate>Fri, 30 Jan 2015 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 30 Jan 2015 00:00:00 -0800</pubDate>
         <category>Windows 10</category>
         <description><![CDATA[<img src="/files/install-windows/10/9926/42.png" alt="How To Install Windows 10 (Build 9926)" /><br/>General disclaimer: backup all files before installing Windows. Insert your Windows 10 DVD/USB and boot from it. (To boot from anything, you have to press a certain key as soon as your computer starts to access the boot menu. This key is usually displayed on the screen when the computer starts. If not, google for "&lt;your PC manufacturer/model&gt; boot menu key".) Select your language,...]]></description>
       </item>
@@ -46,7 +46,7 @@
         <title>Download Windows 10 January Build</title>
         <link>http://www.door2windows.com/download-windows-10-january-build/</link>
         <guid isPermaLink="true">http://www.door2windows.com/download-windows-10-january-build/</guid>
-        <pubDate>Fri, 23 Jan 2015 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 23 Jan 2015 00:00:00 -0800</pubDate>
         <category>Downloads</category><category>Windows 10</category>
         <description><![CDATA[Microsoft has released a new build (9926) of its latest operating system Windows 10 for users to download. This build contains many new exciting features like Cortana, new start menu, continuum, new settings, photos and maps apps etc. If you are using an earlier build of Windows 10, you can upgrade from PC settings or it'll automatically get installed from Windows Update soon. If...]]></description>
       </item>
@@ -56,7 +56,7 @@
         <title>CustomizerGod</title>
         <link>http://www.door2windows.com/customizergod/</link>
         <guid isPermaLink="true">http://www.door2windows.com/customizergod/</guid>
-        <pubDate>Fri, 02 Jan 2015 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 02 Jan 2015 00:00:00 -0800</pubDate>
         <category>door2windows Apps</category><category>Downloads</category><category>Windows 7</category><category>Windows 8</category><category>Windows 10</category>
         <description><![CDATA[<img src="/files/customizergod/10240.png?quality=100" alt="CustomizerGod" /><br/>CustomizerGod is the ultimate tool for customizing Windows. It lets you customize almost any part of Windows according to your taste. Like if you want the start button to look different, you can use CustomizerGod to change it from the Windows logo to something fun like a candy or a minion's face. If you are inexperienced with customization and have a fear of messing...]]></description>
       </item>
